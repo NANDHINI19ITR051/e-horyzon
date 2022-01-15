@@ -1,0 +1,8 @@
+.heading{
+    padding-left: 30%;
+}
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #ddb59f !important;
+    }
+}
