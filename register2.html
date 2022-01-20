@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration page</title>
+    <link src="style.css">
+    <style>
+        body{
+            padding-left:150mm;
+            padding-top: 10mm;
+            background-color: #9598ed;
+        }
+    </style>
+    <script>
+        function myFunction() {
+          alert("submitted");
+        }
+        </script>
+</head>
+<body>
+    <h1>Welcome to the registeration page !</h1>
+    
+    <h3>||||  Participate and enjoy |||| </h3>
+    
+    <form>
+        <div class="input-row">
+            <label for="fname">FIRST NAME :</label><br>
+            <input type="text" name="fname" id="fname" >
+        </div><br>
+        <div class="input-row">
+            <label for="lname">LAST NAME :</label><br>
+            <input type="text" name="lname" id="lname">
+        </div><br>
+        <div class="input-row">
+            <label for="mail">MAIL ID :</label><br>
+            <input type="email" name="mail" id="mail">
+        </div><br>
+        <div class="input-row">
+            <label for="clg">COLLEGE NAME :</label><br>
+            <input type="text" name="clg" id="clg">
+        </div><br>
+        <div class="input-row">
+            <label for="phone">PHONE NO :</label><br>
+            <input type="number" name="phone" id="phone">
+        </div><br>
+        <div class="input-row">
+            <label for="city">CITY :</label><br>
+            <input type="text" name="city" id="city">
+        </div><br>
+        <br>
+        <input type="button" onclick="myFunction()" value="Submit form">
+    </form>
+</body>
+</html>
